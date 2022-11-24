@@ -20,7 +20,7 @@ int print_STR (va_list arg);
 
 /**
  * struct identifierStruct - structure definition of a printTypeStruct
- * @indentifier: type
+ * @indentifier: type of the struct
  * @printer: function to print
  */
 typedef struct identifierStruct

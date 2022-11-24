@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * printIdentifiers - prints special characters
+ * printIdentifiers - prints the special characters
  * @next: character after the %
  * @arg: argument for the indentifier
  * Return: the number of characters printed
- * (excluding the null byte used to end output to strings)
  */
 
 int printIdentifiers(char next, va_list arg)
