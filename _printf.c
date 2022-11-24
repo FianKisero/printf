@@ -7,7 +7,6 @@
  * @next: character after the %
  * @arg: argument for the indentifier
  * Return: the number of characters printed
- * (excluding the null byte used to end output to strings)
  */
 
 int printIdentifiers(char next, va_list arg)
@@ -43,8 +42,6 @@ int printIdentifiers(char next, va_list arg)
  * @format: character string composed of zero or more directives
  *
  * Return: the number of characters printed
- * (excluding the null byte used to end output to strings)
- * return -1 for incomplete identifier error
  */
 
 int _printf(const char *format, ...)
