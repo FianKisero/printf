@@ -13,7 +13,7 @@ _printf - format and write a string, character or integer to stdout
 int _printf(const char *format, ...)
 
 .SH DESCRIPTION
-The function _printf() produces output according to format described below, writes output to stdout.
+_printf() produces output according to format described below, writes output to stdout.
 
 .SS Return value
 .br
@@ -33,5 +33,4 @@ No known bugs
 This page was created in collaboration with ALX.
 
 .SH AUTHORS
-.Kinyara Samuel Gachigo and Nelly Wangari Kamenya
- 
+.@FianKisero and @PriscahC 
